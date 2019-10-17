@@ -8,10 +8,10 @@ def to_frnh(c):
 
 def main():
     for temp in range(0, 212, 40):
-        print(temp, "Fahrenheit =", round(to_celcius(temp)), "Celcius")
+        print(temp, "Fahrenheit = ", round(to_celcius(temp)), "Celcius")
     
     for temp in range(0, 100, 20):
-        print(temp, "Celcius =", round(to_frnh(temp)), "Farenheit")
+        print(temp, "Celcius = ", round(to_frnh(temp)), "Farenheit")
         
 if __name__ == "__main__":
     main()            
